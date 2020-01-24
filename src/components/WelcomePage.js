@@ -1,16 +1,20 @@
 import React from "react";
+import {DIV,Cards} from "./Style"
+
+
 
 export default function WelcomePage() {
   return (
-    <section className="welcome-page">
-      <header>
-        <h1>Welcome to the ultimate fan site!</h1>
+    <Cards>
+
+      <DIV>
         <img
-          className="main-img"
+          className="img"
           src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
           alt="rick"
         />
-      </header>
-    </section>
+    </DIV>
+
+    </Cards>
   );
 }
